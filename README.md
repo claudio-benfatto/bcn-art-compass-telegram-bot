@@ -1,4 +1,4 @@
-## BCN Art Compass Telegram Bot (MVP)
+## BCN Art Compass Telegram Bot
 
 This is a minimal Telegram bot frontend for the BCN Art Compass AI orchestrator.
 It forwards user messages to the existing `/chat` HTTP endpoint and returns
@@ -18,7 +18,7 @@ the model's response back to the user in Telegram.
 2. **Install dependencies with `uv`:**
 
 ```bash
-cd /Users/claudio.benfatto/bcn-art-compass-telegram-bot
+cd /bcn-art-compass-telegram-bot
 uv sync
 ```
 
@@ -48,7 +48,7 @@ BCN_API_BASE_URL=https://bcn-art-compass-xxxx-uc.a.run.app
 ### Run the bot locally
 
 ```bash
-cd /Users/claudio.benfatto/bcn-art-compass-telegram-bot
+cd /bcn-art-compass-telegram-bot
 uv run python bot.py
 ```
 
